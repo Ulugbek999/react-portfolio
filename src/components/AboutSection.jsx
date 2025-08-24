@@ -1,4 +1,4 @@
-
+import { Briefcase, Code, User }from 'lucide-react'
 
 export const AboutSection = () => {
 
@@ -30,19 +30,56 @@ export const AboutSection = () => {
                                 {" "}
                                 Get in touch
                             </a>
-                            <a href="" className="cosmic-button">
+                            <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/40 transition-colors duration-300" >
                                 {" "}
                                 Download CV
                             </a>                            
-
-                        </div>
-
-                        <div>
-
                         </div>
                     </div>
-                </div>
 
+                    <div className="grid grid-cols-1 gap-6">
+                        <div className="bg-background p-4 card-hover gradient-border">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/30">
+                                    <Code className='h-6 w-6 text-primary'/>
+                                </div>
+                                <div className='text-left'>
+                                    <h4 className='font-semibold text-lg text-primary'>Web Development</h4>
+                                    <p className='text-muted-foreground text-primary'>
+                                        Creating responsive website and mobile applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="gradient-border p-4 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/30">
+                                    <User className='h-6 w-6 text-primary'/>
+                                </div>
+                                <div className='text-left'>
+                                    <h4 className='font-semibold text-lg text-primary'>Full stack development</h4>
+                                    <p className='text-muted-foreground text-primary'>
+                                        Designing full-stack applications with Python, Flask, FastApi, React, React Native
+                                    </p>
+                                </div>                                
+                            </div>                            
+                        </div>
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/30">
+                                    <Briefcase className='h-6 w-6 text-primary'/>
+                                </div>
+                                <div className='text-left'>
+                                    <h4 className='font-semibold text-lg text-primary'>Web Development</h4>
+                                    <p className='text-muted-foreground text-primary'>
+                                        Creating responsive website and mobile applications.
+                                    </p>
+                                </div>                                
+                            </div>                            
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </section>
 

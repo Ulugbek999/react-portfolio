@@ -147,10 +147,25 @@
 
 
 @utility gradient-border {
-  @apply relative rounded-md;
-  background: linear-gradient(to right, hsl(var(--card))), hsl(var(--card));
-  background-clip: padding-box;
+  /* the 1px padding is the visible border thickness */
+  @apply relative rounded-2xl p-[1px];
+
+  /* 1) Inner fill  2) Outer gradient border */
+  background:
+    /* inner surface color */
+    linear-gradient(hsl(var(--background)), hsl(var(--background))) padding-box,
+    /* border gradient */
+    linear-gradient(135deg,
+      hsl(var(--primary)) 0%,
+      hsla(var(--primary), 0.35) 40%,
+      transparent 100%
+    ) border-box;
+
+  /* needed so the border-box gradient can show through */
   border: 1px solid transparent;
+
+  /* IMPORTANT: two clip values (one per background layer) */
+  background-clip: padding-box, border-box;
 }
 
 @utility cosmic-button {
