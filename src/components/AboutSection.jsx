@@ -17,12 +17,9 @@ export const AboutSection = () => {
                             Passionate Web and Mobile Developer 
                         </h3>
                         <p className="text-muted-foreground">
-                            Graduating in Spring 2026 with four swe internship experience and with Honors from CSU as well as a part of the D1 Men's tennis team.
-                        </p>
+                            Graduating in Spring 2026 with multiple SWE internships, in the Honors Program at CSU, and a member of the D1 men's tennis team.</p>
                         <p className="text-muted-foreground">
-                            Another paragraph here <br/>
-                            .....
-                            ....
+                            Have internship and personal project experience building web and mobile applications using React, Python (Flask), SQL, Java (Spring Boot), and more.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -44,9 +41,9 @@ export const AboutSection = () => {
                                     <Code className='h-6 w-6 text-primary'/>
                                 </div>
                                 <div className='text-left'>
-                                    <h4 className='font-semibold text-lg text-primary'>Web Development</h4>
+                                    <h4 className='font-semibold text-lg text-primary'>Fullstack Web development</h4>
                                     <p className='text-muted-foreground text-primary'>
-                                        Creating responsive website and mobile applications.
+                                        Built multiple responsive fullstack web applications.
                                     </p>
                                 </div>
                             </div>
@@ -57,9 +54,9 @@ export const AboutSection = () => {
                                     <User className='h-6 w-6 text-primary'/>
                                 </div>
                                 <div className='text-left'>
-                                    <h4 className='font-semibold text-lg text-primary'>Full stack development</h4>
+                                    <h4 className='font-semibold text-lg text-primary'>Mobile fullstack development</h4>
                                     <p className='text-muted-foreground text-primary'>
-                                        Designing full-stack applications with Python, Flask, FastApi, React, React Native
+                                        Designed mobile applications with React Native, Expo, Appwrite, and more.
                                     </p>
                                 </div>                                
                             </div>                            
@@ -70,9 +67,9 @@ export const AboutSection = () => {
                                     <Briefcase className='h-6 w-6 text-primary'/>
                                 </div>
                                 <div className='text-left'>
-                                    <h4 className='font-semibold text-lg text-primary'>Web Development</h4>
+                                    <h4 className='font-semibold text-lg text-primary'>Backend development</h4>
                                     <p className='text-muted-foreground text-primary'>
-                                        Creating responsive website and mobile applications.
+                                        Deployed back-end services for personal projects and internships; designed REST API endpoints and set up databases.
                                     </p>
                                 </div>                                
                             </div>                            

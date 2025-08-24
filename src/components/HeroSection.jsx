@@ -15,7 +15,7 @@ export const HeroSection = () => {
                         Abdurakhmonov</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    Computer Science student at coppin state university pursuing a Software Engineer Career!
+                    Computer Science student at Coppin State University, pursuing career in Software Engineering.
                 </p>
 
                 <div className="opacity-0 animate-fade-in-delay-4">
