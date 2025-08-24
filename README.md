@@ -3,7 +3,7 @@
 A beautiful responsive portfolio to showcase projects, skills, and contact info.
 
 ## 🚀 Live Demo
-Deployed on Railway — **[View Live Demo](https://<your-railway-subdomain>.up.railway.app/)**
+Deployed on Railway — **[View Live Demo](https://react-portfolio.up.railway.app/)**
 
 ## 📸 Screenshot
 ![Portfolio Screenshot](./public/screenshot.png)
